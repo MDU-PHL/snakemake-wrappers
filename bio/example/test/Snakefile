@@ -1,0 +1,11 @@
+'''
+An example Snakemake file
+'''
+
+rule example:
+    input: "hello.txt"
+    output: "greeting.txt"
+    params: ""
+    log: "log_example.txt"
+    wrapper:
+        "master/bio/example"

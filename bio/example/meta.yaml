@@ -1,0 +1,9 @@
+name: test
+description: |
+  Test out a wrapper
+authors:
+  - Anders Gonçalves da Silva
+input:
+  - filename
+output:
+  - filename
